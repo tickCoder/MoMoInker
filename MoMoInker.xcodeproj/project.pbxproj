@@ -13,6 +13,10 @@
 		3E4C54A41C3D3F52003BB765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C54A21C3D3F52003BB765 /* LaunchScreen.storyboard */; };
 		3E4C54AF1C3D3F52003BB765 /* MoMoInkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C54AE1C3D3F52003BB765 /* MoMoInkerTests.m */; };
 		3E4C54BA1C3D3F52003BB765 /* MoMoInkerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C54B91C3D3F52003BB765 /* MoMoInkerUITests.m */; };
+		3ECB208A1C3D4B0F00E17B91 /* TICKBookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB20891C3D4B0F00E17B91 /* TICKBookInfo.m */; };
+		3ECB208D1C3D4B2200E17B91 /* TICKAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB208C1C3D4B2200E17B91 /* TICKAppManager.m */; };
+		3ECB20901C3D4B2D00E17B91 /* TICKBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB208F1C3D4B2D00E17B91 /* TICKBookManager.m */; };
+		3ECB20931C3D4B8100E17B91 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB20921C3D4B8100E17B91 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,17 @@
 		3E4C54B51C3D3F52003BB765 /* MoMoInkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoMoInkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4C54B91C3D3F52003BB765 /* MoMoInkerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoMoInkerUITests.m; sourceTree = "<group>"; };
 		3E4C54BB1C3D3F52003BB765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECB20801C3D49EA00E17B91 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3ECB20851C3D4ABB00E17B91 /* TICKDebugLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TICKDebugLog.h; sourceTree = "<group>"; };
+		3ECB20861C3D4AC800E17B91 /* TICKConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TICKConst.h; sourceTree = "<group>"; };
+		3ECB20881C3D4B0E00E17B91 /* TICKBookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TICKBookInfo.h; sourceTree = "<group>"; };
+		3ECB20891C3D4B0F00E17B91 /* TICKBookInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TICKBookInfo.m; sourceTree = "<group>"; };
+		3ECB208B1C3D4B2200E17B91 /* TICKAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TICKAppManager.h; sourceTree = "<group>"; };
+		3ECB208C1C3D4B2200E17B91 /* TICKAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TICKAppManager.m; sourceTree = "<group>"; };
+		3ECB208E1C3D4B2D00E17B91 /* TICKBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TICKBookManager.h; sourceTree = "<group>"; };
+		3ECB208F1C3D4B2D00E17B91 /* TICKBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TICKBookManager.m; sourceTree = "<group>"; };
+		3ECB20911C3D4B8100E17B91 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3ECB20921C3D4B8100E17B91 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +111,8 @@
 		3E4C54931C3D3F52003BB765 /* MoMoInker */ = {
 			isa = PBXGroup;
 			children = (
+				3ECB20811C3D4A6400E17B91 /* Class */,
+				3ECB20801C3D49EA00E17B91 /* PrefixHeader.pch */,
 				3E4C54971C3D3F52003BB765 /* AppDelegate.h */,
 				3E4C54981C3D3F52003BB765 /* AppDelegate.m */,
 				3E4C54A01C3D3F52003BB765 /* Assets.xcassets */,
@@ -130,6 +147,55 @@
 				3E4C54BB1C3D3F52003BB765 /* Info.plist */,
 			);
 			path = MoMoInkerUITests;
+			sourceTree = "<group>";
+		};
+		3ECB20811C3D4A6400E17B91 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB20871C3D4AF000E17B91 /* ViewController */,
+				3ECB20821C3D4A6400E17B91 /* Const */,
+				3ECB20831C3D4A6400E17B91 /* Entity */,
+				3ECB20841C3D4A6400E17B91 /* Manager */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		3ECB20821C3D4A6400E17B91 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB20851C3D4ABB00E17B91 /* TICKDebugLog.h */,
+				3ECB20861C3D4AC800E17B91 /* TICKConst.h */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		3ECB20831C3D4A6400E17B91 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB20881C3D4B0E00E17B91 /* TICKBookInfo.h */,
+				3ECB20891C3D4B0F00E17B91 /* TICKBookInfo.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3ECB20841C3D4A6400E17B91 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB208B1C3D4B2200E17B91 /* TICKAppManager.h */,
+				3ECB208C1C3D4B2200E17B91 /* TICKAppManager.m */,
+				3ECB208E1C3D4B2D00E17B91 /* TICKBookManager.h */,
+				3ECB208F1C3D4B2D00E17B91 /* TICKBookManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3ECB20871C3D4AF000E17B91 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB20911C3D4B8100E17B91 /* RootViewController.h */,
+				3ECB20921C3D4B8100E17B91 /* RootViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +327,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ECB208A1C3D4B0F00E17B91 /* TICKBookInfo.m in Sources */,
 				3E4C54991C3D3F52003BB765 /* AppDelegate.m in Sources */,
+				3ECB20931C3D4B8100E17B91 /* RootViewController.m in Sources */,
+				3ECB208D1C3D4B2200E17B91 /* TICKAppManager.m in Sources */,
+				3ECB20901C3D4B2D00E17B91 /* TICKBookManager.m in Sources */,
 				3E4C54961C3D3F52003BB765 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +465,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MoMoInker/PrefixHeader.pch;
 				INFOPLIST_FILE = MoMoInker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tickCoder.MoMoInker;
@@ -406,6 +478,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MoMoInker/PrefixHeader.pch;
 				INFOPLIST_FILE = MoMoInker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tickCoder.MoMoInker;

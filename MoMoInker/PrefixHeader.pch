@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  MoMoInker
+//
+//  Created by Server on 2016.01.06.
+//  Copyright © 2016 tickCoder. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "TICKDebugLog.h"
+
+#endif /* PrefixHeader_pch */
